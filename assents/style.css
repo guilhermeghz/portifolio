@@ -19,6 +19,7 @@ smart_tv 1200 px
 
 
 
+
 body {
     background-image:url("./madri.jpeg");
 }
@@ -57,6 +58,7 @@ header {
     border-radius: 7px 7px 0px 0px;
     width: 90vw;
     margin: auto;
+    border-color: 5px  solid black;
 }
 
 header>h1 {
@@ -65,7 +67,9 @@ header>h1 {
     padding: 3px;
     text-shadow: #c5a898 1px 1px 10px;
     margin-top: 17px;
-
+     height: 90px;
+     padding: 25px;
+     border: #ff6600;
 }
 
 #burger {
@@ -143,9 +147,7 @@ div{
 }
 
 
-span{
-    color: #ff6600;
-}
+
 footer {
     background-color: #21203f;
     text-align: center;
@@ -167,33 +169,6 @@ a:hover{
     color: #1769e4;
 }
 
-
-
-/* configuração e definição de imagens para mobile-first */
-img {
-    display: block;
-    margin: auto;
-}
-
-img#mobile {
-    display: block;
-}
-
-img#tablet {
-    display: none;
-}
-
-img#print {
-    display: none;
-}
-
-img#pc {
-    display: none;
-}
-
-img#tv {
-    display: none;
-}
 
 
 
@@ -250,25 +225,6 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         margin: auto;
     }
 
-    img#mobile {
-        display: none;
-    }
-
-    img#tablet {
-        display: block;
-    }
-
-    img#print {
-        display: none;
-    }
-
-    img#pc {
-        display: none;
-    }
-
-    img#tv {
-        display: none;
-    }
 }
  img{
     border-color: 5px  solid #0bc4aa;
@@ -321,25 +277,6 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         margin: auto;
     }
 
-    img#mobile {
-        display: none;
-    }
-
-    img#tablet {
-        display: none;
-    }
-
-    img#print {
-        display: none;
-    }
-
-    img#pc {
-        display: block;
-    }
-
-    img#tv {
-        display: none;
-    }
 }
 img{
     border-radius: 40%;
@@ -401,25 +338,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         margin: auto;
     }
 
-    img#mobile {
-        display: none;
-    }
-
-    img#tablet {
-        display: none;
-    }
-
-    img#print {
-        display: none;
-    }
-
-    img#pc {
-        display: none;
-    }
-
-    img#tv {
-        display: block;
-    }
+   
 }
 h2{
     text-align: center;
